@@ -1,6 +1,6 @@
 // Configuração do projeto
 const CONFIG = {
-    startDate: '2025-10-28', // Data de início (formato: YYYY-MM-DD)
+    startDate: '2025-10-01', // TESTE - todas cartas liberadas
 };
 
 const LETTERS = [
@@ -295,7 +295,7 @@ Não tenho pressa. Quero que você tenha certeza, que esteja pronta de verdade. 
 
 Vou estar aqui, do seu lado, enquanto você trabalha isso com sua psicóloga, enquanto se cura, enquanto se descobre. Sem pressão, sem cobranças. Só com amor e paciência.
 
-Quando você estiver pronta — se estiver —, eu vou estar aqui esperando. Com a certeza de que vale a pena.
+Quando você estiver pronta, eu vou estar aqui esperando. Com a certeza de que vale a pena.
 
 Te amo, minha princesa. Do jeito que você é, no tempo que você precisa.
 
