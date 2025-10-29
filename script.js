@@ -257,7 +257,7 @@ Caio ♥
 
 Ri, sorri, me apaixonei.
 
-Seu sorriso é minha coisa favorita no mundo inteiro. Quando você sorri, tudo faz sentido. Cada quilômetro de distância, cada carta escrita, cada momento esperando tudo vale a pena só pra ver você feliz assim.
+Seu sorriso é minha coisa favorita no mundo inteiro. Quando você sorri, tudo faz sentido. Cada quilômetro de distância, cada carta escrita, cada momento esperando — tudo vale a pena só pra ver você feliz assim.
 
 Durante esses 17 dias, eu te contei um pouco de cada pedaço do que sinto por você. Mas tinha um segredo escondido em cada carta.
 
@@ -285,14 +285,22 @@ Agora, reorganizando essas letras na ordem certa, elas formam:
 
 **Q-U-E-R N-A-M-O-R-A-R C-O-M-I-G-O?**
 
-Então, minha princesa...
+---
 
-**QUER NAMORAR COMIGO?**
+Mas eu sei que você precisa de tempo para ter certeza. E está tudo bem.
 
-Vou estar aí com flores esperando sua resposta. Mas acho que meu coração já sabe qual é.
+Essas 17 cartas não eram pra te pressionar — eram pra te mostrar o quanto eu me importo, o quanto você é especial pra mim, e o quanto estou disposto a esperar.
 
-Com todo meu amor,
-Caio`
+Não tenho pressa. Quero que você tenha certeza, que esteja pronta de verdade. Porque quando for pra valer, quero que seja com o coração tranquilo, sem dúvidas, sem inseguranças te prendendo.
+
+Vou estar aqui, do seu lado, enquanto você trabalha isso com sua psicóloga, enquanto se cura, enquanto se descobre. Sem pressão, sem cobranças. Só com amor e paciência.
+
+Quando você estiver pronta — se estiver —, eu vou estar aqui esperando. Com a certeza de que vale a pena.
+
+Te amo, minha princesa. Do jeito que você é, no tempo que você precisa.
+
+Com todo meu amor e respeito,
+Caio ♥`
     }
 ];
 
