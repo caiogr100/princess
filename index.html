@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17 Dias para Você ♥</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-hearts"></div>
+    
+    
+    <header>
+        <h1>Uma Jornada em 17 Cartas</h1>
+        <p class="subtitle">Cada dia, uma nova mensagem para você ♥</p>
+    </header>
+
+    <div class="countdown-container" id="countdown">
+        <p>Próxima carta em: <span id="countdown-timer">...</span></p>
+    </div>
+
+    <main class="cards-container" id="cardsContainer">
+        <!-- As cartas serão geradas dinamicamente pelo JavaScript -->
+    </main>
+
+    <!-- Modal para mostrar o conteúdo da carta -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeBtn">&times;</button>
+            <div class="letter-number">Carta <span id="letterNumber"></span></div>
+            <div class="letter-initial" id="letterInitial"></div>
+            <div class="letter-content" id="letterContent"></div>
+            <button class="next-btn" id="nextBtn">Próxima Carta →</button>
+        </div>
+    </div>
+
+    <!-- Modal especial para a carta final -->
+    <div class="modal final-modal" id="finalModal">
+        <div class="modal-content final-content">
+            <div class="puzzle-reveal" id="puzzleReveal"></div>
+            <div class="final-message" id="finalMessage"></div>
+            <div class="final-buttons" id="finalButtons">
+                <button class="btn-sim" id="btnSim">SIM! ♥</button>
+                <button class="btn-nao" id="btnNao">Não...</button>
+            </div>
+            <div class="resposta-sim" id="respostaSim" style="display: none;">
+                <h2>AAAAAH EU SABIA! 🎉</h2>
+                <p>Você me fez o homem mais feliz do mundo! ♥♥♥</p>
+                <p>Mal posso esperar pra te ver pessoalmente e celebrar isso!</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Canvas para confetes -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Controle de música -->
+    <div class="music-control" id="musicControl">
+        <div class="volume-control">
+            <span class="volume-icon">🔊</span>
+            <input type="range" id="volumeSlider" min="0" max="100" value="70" class="volume-slider">
+        </div>
+        <button id="musicToggle" title="Clique para tocar música">🎵</button>
+        <span class="music-label">Lover - Taylor Swift</span>
+    </div>
+
+    <audio id="bgMusic" loop autoplay>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
