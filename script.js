@@ -534,7 +534,14 @@ class LetterApp {
         const letterContent = document.getElementById('letterContent');
         const nextBtn = document.getElementById('nextBtn');
 
-        letterNumber.textContent = letter.id;
+        // Se for Carta L (18), adiciona classe especial
+        if (letter.id === 18) {
+            modal.classList.add('special-modal');
+            letterNumber.textContent = 'L';
+        } else {
+            modal.classList.remove('special-modal');
+            letterNumber.textContent = letter.id;
+        }
         
         // Esconder a letra gigante
         letterInitial.style.display = 'none';
