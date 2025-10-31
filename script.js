@@ -12,7 +12,7 @@ const LETTERS = [
 
 Quando te deixei na rodoviária domingo, senti tua falta imediatamente. Não foi aquela falta normal, sabe? Foi algo que me consumiu. E aí, no caminho de volta, eu tive certeza: eu quero dar o mundo pra você.
 
-Quero tu só pra mim e fazer tu muito feliz. Amei cada segundo do nosso fim de semana juntos, e estou seguro de que a gente vai dar certo.
+Te quero só pra mim e te fazer muito feliz. Amei cada segundo do nosso fim de semana juntos, e estou seguro de que a gente vai dar certo.
 
 Então pensei: tu merece algo especial. Algo que mostre tudo que tô sentindo. Algo que assegure ela de que teus problemas serão os meus, que tuas inseguranças estarão seguras ao meu lado, e que eu vou estar lá por ti sendo teu porto seguro.
 
@@ -39,7 +39,7 @@ Caio
 
 Nunca tinha tido um primeiro encontro tão incrível. Planejar tudo, levar a minha "lista", escolher os doces que você gosta... ver tua cara de felicidade quando abriu? Aquilo valeu cada segundo.
 
-Mas sabe o que ficou gravado na minha memória pra sempre? tu, ao meu lado, com o pôr do sol de fundo. Aquela cena é minha favorita. Você como minha copilota foi muito legal (inclusive a parte que a gente saiu da rua).
+Mas sabe o que ficou gravado na minha memória pra sempre? você ao meu lado, com o pôr do sol de fundo. Aquela cena é minha favorita. Você como minha copilota foi muito legal (inclusive a parte que a gente saiu da rua).
 
 Ali eu já sabia que seria você.
 
@@ -69,7 +69,7 @@ Perfeitinho ♥`
         cardIcon: 'piquenique.png',
         message: `Eu nunca tinha namorado antes de te conhecer. E isso me deixava inseguro, travado. Sabe aquele medo de não saber fazer certo? De não ser o suficiente?
 
-Mas aí vem tu. E tu me deixa tão seguro, tão tranquilo, que eu deixo de ser um gatinho assustado e me sinto um leão.
+Mas aí vem você. E tu me deixa tão seguro, tão tranquilo, que eu deixo de ser um gatinho assustado e me sinto um leão.
 
 Isso é incrível. Tu é a melhor pessoa pra eu estar ao lado vivendo todas essas primeiras experiências. Contigo, eu não tenho medo de errar, porque sei que a gente aprende junto.
 
@@ -199,7 +199,7 @@ Caio ♥`
         cardIcon: 'hallo.png',
         message: `Respeito suas inseguranças sobre namorar. Sei que tu tá se curando, trabalhando isso com sua psicóloga, e tô de boa em esperar.
 
-Porque eu tenho certeza que a gente vai dar certo. Tu é incrível, e eu não tenho pressa. Vou estar aqui quando tu estiver pronta.
+Porque eu tenho certeza que a gente vai dar certo. Tu é incrível, e eu não tenho pressa. Vou estar aqui quando você estiver pronta.
 
 No seu tempo.
 
@@ -593,36 +593,63 @@ class LetterApp {
             }, 5000);
         };
 
-        // Botão NÃO - foge do mouse
-        btnNao.addEventListener('mouseenter', (e) => {
-            const button = e.target;
-            const container = button.parentElement;
-            const containerRect = container.getBoundingClientRect();
+        // Contador de tentativas
+        let tentativas = 0;
+        const mensagens = [
+            "Tem certeza? 🥺",
+            "Pensa bem... 💭",
+            "Sério mesmo? 😢",
+            "Última chance! 💔",
+            "Não faz isso comigo... 😭",
+            "Por favor? 🙏"
+        ];
+
+        // Função para mover o botão
+        const moverBotao = (button, e = null) => {
+            if (e) e.preventDefault();
             
-            // Posição aleatória dentro do container
             const maxX = window.innerWidth - 200;
-            const maxY = window.innerHeight - 100;
-            const randomX = Math.random() * maxX;
-            const randomY = Math.random() * maxY;
+            const maxY = window.innerHeight - 150;
+            const randomX = Math.max(10, Math.random() * maxX);
+            const randomY = Math.max(10, Math.random() * maxY);
             
             button.style.position = 'fixed';
             button.style.left = randomX + 'px';
             button.style.top = randomY + 'px';
             button.style.transition = 'all 0.3s ease';
+            
+            // Diminui o botão a cada tentativa
+            tentativas++;
+            const novoTamanho = Math.max(0.5, 1 - (tentativas * 0.1));
+            button.style.transform = `scale(${novoTamanho})`;
+            
+            // Mostra mensagem
+            if (tentativas <= mensagens.length) {
+                button.textContent = mensagens[tentativas - 1];
+            }
+            
+            // Depois de 6 tentativas, esconde o botão
+            if (tentativas >= 6) {
+                setTimeout(() => {
+                    button.style.opacity = '0';
+                    button.style.pointerEvents = 'none';
+                }, 300);
+            }
+        };
+
+        // Botão NÃO - foge do mouse (desktop)
+        btnNao.addEventListener('mouseenter', (e) => {
+            moverBotao(e.target);
         });
 
-        // No mobile, usa click ao invés de hover
+        // Mobile: touchstart (antes de clicar)
+        btnNao.addEventListener('touchstart', (e) => {
+            moverBotao(e.target, e);
+        });
+
+        // Mobile/Desktop: click (backup)
         btnNao.addEventListener('click', (e) => {
-            e.preventDefault();
-            const button = e.target;
-            const maxX = window.innerWidth - 200;
-            const maxY = window.innerHeight - 100;
-            const randomX = Math.random() * maxX;
-            const randomY = Math.random() * maxY;
-            
-            button.style.position = 'fixed';
-            button.style.left = randomX + 'px';
-            button.style.top = randomY + 'px';
+            moverBotao(e.target, e);
         });
     }
 
