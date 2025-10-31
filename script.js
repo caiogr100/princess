@@ -10,11 +10,11 @@ const LETTERS = [
         cardIcon: 'embaixador.png',
         message: `Minha princesa,
 
-Quando te deixei na rodoviária domingo, senti sua falta imediatamente. Não foi aquela falta normal, sabe? Foi algo que me consumiu. E aí, no caminho de volta, eu tive certeza: eu quero dar o mundo pra você.
+Quando te deixei na rodoviária domingo, senti tua falta imediatamente. Não foi aquela falta normal, sabe? Foi algo que me consumiu. E aí, no caminho de volta, eu tive certeza: eu quero dar o mundo pra você.
 
 Quero você só pra mim e fazer você muito feliz. Amei cada segundo do nosso fim de semana juntos, e estou seguro de que a gente vai dar certo.
 
-Então pensei: você merece algo especial. Algo que mostre tudo que tô sentindo. Algo que assegure ela de que seus problemas serão os meus, que suas inseguranças estarão seguras ao meu lado, e que eu vou estar lá por você sendo seu porto seguro.
+Então pensei: você merece algo especial. Algo que mostre tudo que tô sentindo. Algo que assegure ela de que teus problemas serão os meus, que tuas inseguranças estarão seguras ao meu lado, e que eu vou estar lá por você sendo teu porto seguro.
 
 Decidi escrever.
 
@@ -55,7 +55,7 @@ Caio ♥
         cardIcon: 'xadrez.png',
         message: `Adoro que você é uma artista. Adoro que você gosta de cozinhar. Adoro que você joga xadrez.
 
-Tudo em você me atrai. Seus hobbies, suas paixões, a forma como você se dedica às coisas que ama. E sabe o que é mais legal? Eu quero estar ali, do lado, vendo você brilhar em cada uma dessas coisas.
+Tudo em você me atrai. Teus hobbies, tuas paixões, a forma como você se dedica às coisas que ama. E sabe o que é mais legal? Eu quero estar ali, do lado, vendo você brilhar em cada uma dessas coisas.
 
 Vou deixar meu ego de competidor de lado e perder pra você no xadrez quantas vezes forem necessárias. Porque o prêmio de te ver feliz ganhando vale muito mais que qualquer vitória.
 
@@ -75,7 +75,7 @@ Isso é incrível. Você é a melhor pessoa pra eu estar ao lado vivendo todas e
 
 Obrigado por me fazer sentir assim.
 
-Seu bem ♥
+Teu bem ♥
 
 <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(212, 82, 110, 0.2);">
     <img src="foto6.jpeg" style="width: 100%; max-width: 250px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
@@ -113,7 +113,7 @@ Caio ♥`
         id: 7,
         letter: 'C',
         cardIcon: 'cozinhando.png',
-        message: `Conhecer sua mãe foi uma experiência inesquecível.
+        message: `Conhecer tua mãe foi uma experiência inesquecível.
 
 Cheguei tenso demais afinal, nunca tinha conhecido a mãe de ninguém antes. Tomei até cápsula de cafeína pra não chegar acabado (o resultado de 1h de sono depois tu sabe kkkk).
 
@@ -121,7 +121,7 @@ E te ver ali, quietinha, toda tímida, só olhando enquanto tua mãe me enchia d
 
 Mais um dia que vai ficar nas nossas memórias. Muito bom ter vivido isso com você.
 
-Seu futuro namorado ♥`
+Teu futuro namorado ♥`
     },
     {
         id: 8,
@@ -145,7 +145,7 @@ Caio ♥`
 
 Agora a Flor... bom, ela é interesseira. Só gostou das minhas coisas, principalmente do meu tênis... mas tá tudo bem, vou conquistar ela também. É questão de tempo.
 
-Até suas gatas sabem que eu vim pra ficar.
+Até tuas gatas sabem que eu vim pra ficar.
 
 Caio ♥
 
@@ -159,9 +159,9 @@ Caio ♥
         cardIcon: 'internato.png',
         message: `Rio só de pensar na festa do internato.
 
-Você tá MUUUITO ansiosa, querendo que eu conheça seus amigos, e eu tô empolgado demais junto, por você, pela gente, por fazer parte da sua vida dessa forma.
+Você tá MUUUITO ansiosa, querendo que eu conheça teus amigos, e eu tô empolgado demais junto, por você, pela gente, por fazer parte da tua vida dessa forma.
 
-Mal posso esperar pra estar lá do seu lado.
+Mal posso esperar pra estar lá do teu lado.
 
 Caio ♥`
     },
@@ -257,7 +257,7 @@ Caio ♥
 
 Ri, sorri, me apaixonei.
 
-Seu sorriso é minha coisa favorita no mundo inteiro. Quando você sorri, tudo faz sentido. Cada quilômetro de distância, cada carta escrita, cada momento esperando — tudo vale a pena só pra ver você feliz assim.
+Teu sorriso é minha coisa favorita no mundo inteiro. Quando você sorri, tudo faz sentido. Cada quilômetro de distância, cada carta escrita, cada momento esperando, tudo vale a pena só pra ver você feliz assim.
 
 Durante esses 17 dias, eu te contei um pouco de cada pedaço do que sinto por você. Mas tinha um segredo escondido em cada carta.
 
@@ -285,21 +285,31 @@ Agora, reorganizando essas letras na ordem certa, elas formam:
 
 **Q-U-E-R N-A-M-O-R-A-R C-O-M-I-G-O?**
 
----
-
 Mas eu sei que você precisa de tempo para ter certeza. E está tudo bem.
 
-Essas 17 cartas não eram pra te pressionar — eram pra te mostrar o quanto eu me importo, o quanto você é especial pra mim, e o quanto estou disposto a esperar.
+Essas 17 cartas não eram pra te pressionar, eram pra te mostrar o quanto eu me importo, o quanto você é especial pra mim, e o quanto estou disposto a esperar.
 
-Não tenho pressa. Quero que você tenha certeza, que esteja pronta de verdade. Porque quando for pra valer, quero que seja com o coração tranquilo, sem dúvidas, sem inseguranças te prendendo.
+Não tenho pressa. Quero que você tenha certeza, que esteja pronta de verdade. Porque quando for pra valer, quero que seja com o coração tranquilo, sem dúvidas, sem tuas inseguranças te prendendo.
 
-Vou estar aqui, do seu lado, enquanto você trabalha isso com sua psicóloga, enquanto se cura, enquanto se descobre. Sem pressão, sem cobranças. Só com amor e paciência.
+Vou estar aqui, do teu lado, enquanto você trabalha isso com tua psicóloga, enquanto se cura, enquanto se descobre. Sem pressão, sem cobranças. Só com amor e paciência.
 
 Quando você estiver pronta, eu vou estar aqui esperando. Com a certeza de que vale a pena.
 
 Te amo, minha princesa. Do jeito que você é, no tempo que você precisa.
 
 Com todo meu amor e respeito,
+Caio ♥`
+    },
+    {
+        id: 18,
+        letter: 'L',
+        cardIcon: 'heart.png',
+        message: `Eita tu denovo aqui princesa?
+
+Achei 17 um número muito pequeno, por mim eu escreveria pra ti todos os dias. Acho que faltariam palavras pra te demonstrar o quanto te acho a pessoa mais incrível que conheci e o quanto quero te fazer feliz.
+
+Te amo, Larissa (um pouquinho só ta, não se acha muito...)
+
 Caio ♥`
     }
 ];
