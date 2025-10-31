@@ -12,13 +12,13 @@ const LETTERS = [
 
 Quando te deixei na rodoviária domingo, senti tua falta imediatamente. Não foi aquela falta normal, sabe? Foi algo que me consumiu. E aí, no caminho de volta, eu tive certeza: eu quero dar o mundo pra você.
 
-Quero você só pra mim e fazer você muito feliz. Amei cada segundo do nosso fim de semana juntos, e estou seguro de que a gente vai dar certo.
+Quero tu só pra mim e fazer tu muito feliz. Amei cada segundo do nosso fim de semana juntos, e estou seguro de que a gente vai dar certo.
 
-Então pensei: você merece algo especial. Algo que mostre tudo que tô sentindo. Algo que assegure ela de que teus problemas serão os meus, que tuas inseguranças estarão seguras ao meu lado, e que eu vou estar lá por você sendo teu porto seguro.
+Então pensei: tu merece algo especial. Algo que mostre tudo que tô sentindo. Algo que assegure ela de que teus problemas serão os meus, que tuas inseguranças estarão seguras ao meu lado, e que eu vou estar lá por ti sendo teu porto seguro.
 
 Decidi escrever.
 
-São 17 cartas. Quero que você leia uma por dia, sem pular nenhuma. Cada uma fala um pedaço do que tá passando no meu coração, do que eu sinto por você, e do que eu quero construir com você.
+São 17 cartas. Quero que tu leia uma por dia, sem pular nenhuma. Cada uma fala um pedaço do que tá passando no meu coração, do que eu sinto por ti, e do que eu quero construir contigo.
 
 Vou te ter aos poucos, através das palavras. E no final, quando a gente se encontrar de novo, eu te conto o resto pessoalmente.
 
@@ -55,11 +55,11 @@ Caio ♥
         cardIcon: 'xadrez.png',
         message: `Adoro que você é uma artista. Adoro que você gosta de cozinhar. Adoro que você joga xadrez.
 
-Tudo em você me atrai. Teus hobbies, tuas paixões, a forma como você se dedica às coisas que ama. E sabe o que é mais legal? Eu quero estar ali, do lado, vendo você brilhar em cada uma dessas coisas.
+Tudo em ti me atrai. Teus hobbies, tuas paixões, a forma como tu te dedica às coisas que ama. E sabe o que é mais legal? Eu quero estar ali, do lado, vendo tu brilhar em cada uma dessas coisas.
 
-Vou deixar meu ego de competidor de lado e perder pra você no xadrez quantas vezes forem necessárias. Porque o prêmio de te ver feliz ganhando vale muito mais que qualquer vitória.
+Vou deixar meu ego de competidor de lado e perder pra ti no xadrez quantas vezes forem necessárias. Porque o prêmio de te ver feliz ganhando vale muito mais que qualquer vitória.
 
-Você me inspira todos os dias.
+Tu me inspira todos os dias.
 
 Perfeitinho ♥`
     },
@@ -69,9 +69,9 @@ Perfeitinho ♥`
         cardIcon: 'piquenique.png',
         message: `Eu nunca tinha namorado antes de te conhecer. E isso me deixava inseguro, travado. Sabe aquele medo de não saber fazer certo? De não ser o suficiente?
 
-Mas aí vem você. E você me deixa tão seguro, tão tranquilo, que eu deixo de ser um gatinho assustado e me sinto um leão.
+Mas aí vem tu. E tu me deixa tão seguro, tão tranquilo, que eu deixo de ser um gatinho assustado e me sinto um leão.
 
-Isso é incrível. Você é a melhor pessoa pra eu estar ao lado vivendo todas essas primeiras experiências. Com você, eu não tenho medo de errar, porque sei que a gente aprende junto.
+Isso é incrível. Tu é a melhor pessoa pra eu estar ao lado vivendo todas essas primeiras experiências. Contigo, eu não tenho medo de errar, porque sei que a gente aprende junto.
 
 Obrigado por me fazer sentir assim.
 
@@ -89,9 +89,9 @@ Teu bem ♥
 
 Meu dia fica muito melhor quando começo a conversar com você.
 
-Independente de como o dia foi, você me traz uma paz que eu não sei explicar. Espero que eu possa fazer o mesmo por ti, porque você merece toda a felicidade do mundo.
+Independente de como o dia foi, tu me traz uma paz que eu não sei explicar. Espero que eu possa fazer o mesmo por ti, porque tu merece toda a felicidade do mundo.
 
-Você é especial demais ♥
+Tu é especial demais ♥
 
 Caio`
     },
@@ -101,7 +101,7 @@ Caio`
         cardIcon: 'med.png',
         message: `Nunca vou esquecer de você me dizendo "te amo" pela primeira vez.
 
-Eu tava lá, todo tenso, e falei uma besteira sobre a "vibe" que a mulher do Casamento às Cegas falou. Você morreu de rir e soltou, com a maior naturalidade: "te amo".
+Eu tava lá, todo tenso, e falei uma besteira sobre a "vibe" que a mulher do Casamento às Cegas falou. Tu morreu de rir e soltou, com a maior naturalidade: "te amo".
 
 Fiquei tão bobinho, tão feliz.
 
@@ -129,11 +129,11 @@ Teu futuro namorado ♥`
         cardIcon: 'Gemini_Generated_Image_5rd6375rd6375rd6.png',
         message: `Queria pedir desculpas por a gente nunca assistir os filmes de verdade.
 
-Bom, pelo menos Harry Potter, principalmente você toda empolgada querendo me mostrar, e eu ali... te admirando. Fico rindo o tempo inteiro ao invés de prestar atenção na tela, porque a vista é muito melhor.
+Bom, pelo menos Harry Potter, principalmente tu toda empolgada querendo me mostrar, e eu ali... te admirando. Fico rindo o tempo inteiro ao invés de prestar atenção na tela, porque a vista é muito melhor.
 
 Prometo melhorar e assistir direito no futuro (talvez... sem garantias). Mas não posso prometer que vou parar de te olhar mais do que o filme.
 
-Você é minha cena favorita.
+Tu é minha cena favorita.
 
 Caio ♥`
     },
@@ -159,7 +159,7 @@ Caio ♥
         cardIcon: 'internato.png',
         message: `Rio só de pensar na festa do internato.
 
-Você tá MUUUITO ansiosa, querendo que eu conheça teus amigos, e eu tô empolgado demais junto, por você, pela gente, por fazer parte da tua vida dessa forma.
+Tu tá MUUUITO ansiosa, querendo que eu conheça teus amigos, e eu tô empolgado demais junto, por ti, pela gente, por fazer parte da tua vida dessa forma.
 
 Mal posso esperar pra estar lá do teu lado.
 
@@ -171,9 +171,9 @@ Caio ♥`
         cardIcon: 'cafe.png',
         message: `Uma coisa que temos que falar é sobre teu vício em café.
 
-Você e sua necessidade diária (às vezes de hora em hora) de cafeína. Já perdi as contas de quantas xícaras você toma por dia, mas adoro isso em você.
+Tu e tua necessidade diária (às vezes de hora em hora) de cafeína. Já perdi as contas de quantas xícaras tu toma por dia, mas adoro isso em ti.
 
-Prometo aprender a fazer e sempre ter café quentinho esperando quando você chegar.
+Prometo aprender a fazer e sempre ter café quentinho esperando quando tu chegar.
 
 Caio ♥
 
@@ -187,7 +187,7 @@ Caio ♥
         cardIcon: 'paris.png',
         message: `O campeonato em Paris... nunca me senti tão confiante.
 
-Ter o seu apoio muda tudo. Vou dar meu máximo, vou lutar por cada ponto, porque quero te orgulhar. Você me faz sentir que posso conquistar o mundo.
+Ter teu apoio muda tudo. Vou dar meu máximo, vou lutar por cada ponto, porque quero te orgulhar. Tu me faz sentir que posso conquistar o mundo.
 
 Obrigado por acreditar em mim.
 
@@ -199,7 +199,7 @@ Caio ♥`
         cardIcon: 'hallo.png',
         message: `Respeito suas inseguranças sobre namorar. Sei que tu tá se curando, trabalhando isso com sua psicóloga, e tô de boa em esperar.
 
-Porque eu tenho certeza que a gente vai dar certo. Você é incrível, e eu não tenho pressa. Vou estar aqui quando você estiver pronta.
+Porque eu tenho certeza que a gente vai dar certo. Tu é incrível, e eu não tenho pressa. Vou estar aqui quando tu estiver pronta.
 
 No seu tempo.
 
@@ -211,9 +211,9 @@ Caio ♥`
         cardIcon: 'carro.png',
         message: `Garanto que bater o carro no caminho de volta do nosso primeiro encontro não tava nos planos.
 
-Assustei você, seus pais, e até a mim mesmo. Mas é que eu tava flutuando depois de te ver. Minha cabeça não tava no volante, tava em você.
+Assustei você, seus pais, e até a mim mesmo. Mas é que eu tava flutuando depois de te ver. Minha cabeça não tava no volante, tava em ti.
 
-Pelo menos agora você sabe o efeito que causa em mim.
+Pelo menos agora tu sabe o efeito que causa em mim.
 
 Caio ♥`
     },
@@ -223,7 +223,7 @@ Caio ♥`
         cardIcon: 'pintura.png',
         message: `Ida e volta. Pelotas ↔ Rio Grande. O Embaixador virou meu melhor amigo.
 
-A distância não é fácil, mas vale cada quilômetro. Vale cada viagem. Vale cada segundo, porque no final do caminho, você tá lá me esperando.
+A distância não é fácil, mas vale cada quilômetro. Vale cada viagem. Vale cada segundo, porque no final do caminho, tu tá lá me esperando.
 
 E isso faz tudo valer a pena.
 
@@ -237,11 +237,11 @@ Caio ♥`
         cardIcon: 'congresso.png',
         message: `O futuro. Nossos planos.
 
-Quero fazer parte de tudo que você sonha. Quero ir com você nos congressos, conhecer cada cidade nova, estar ali quando você conquistar cada objetivo.
+Quero fazer parte de tudo que tu sonha. Quero ir contigo nos congressos, conhecer cada cidade nova, estar ali quando tu conquistar cada objetivo.
 
-Sei o quanto esses momentos são importantes pra você, e eu quero viver isso junto. Não só te esperando em casa, mas caminhando do seu lado.
+Sei o quanto esses momentos são importantes pra ti, e eu quero viver isso junto. Não só te esperando em casa, mas caminhando do teu lado.
 
-Porque seu futuro é onde eu quero estar.
+Porque teu futuro é onde eu quero estar.
 
 Caio ♥
 
@@ -257,11 +257,11 @@ Caio ♥
 
 Ri, sorri, me apaixonei.
 
-Teu sorriso é minha coisa favorita no mundo inteiro. Quando você sorri, tudo faz sentido. Cada quilômetro de distância, cada carta escrita, cada momento esperando, tudo vale a pena só pra ver você feliz assim.
+Teu sorriso é minha coisa favorita no mundo inteiro. Quando tu sorri, tudo faz sentido. Cada quilômetro de distância, cada carta escrita, cada momento esperando, tudo vale a pena só pra ver tu feliz assim.
 
-Durante esses 17 dias, eu te contei um pouco de cada pedaço do que sinto por você. Mas tinha um segredo escondido em cada carta.
+Durante esses 17 dias, eu te contei um pouco de cada pedaço do que sinto por ti. Mas tinha um segredo escondido em cada carta.
 
-Se você pegar a primeira palavra de cada uma e olhar só pra primeira letra, vai formar algo:
+Se tu pegar a primeira palavra de cada uma e olhar só pra primeira letra, vai formar algo:
 
 Minha (Carta 1)
 Ontem (Carta 2)
@@ -289,13 +289,13 @@ Mas eu sei que você precisa de tempo para ter certeza. E está tudo bem.
 
 Essas 17 cartas não eram pra te pressionar, eram pra te mostrar o quanto eu me importo, o quanto você é especial pra mim, e o quanto estou disposto a esperar.
 
-Não tenho pressa. Quero que você tenha certeza, que esteja pronta de verdade. Porque quando for pra valer, quero que seja com o coração tranquilo, sem dúvidas, sem tuas inseguranças te prendendo.
+Não tenho pressa. Quero que tu tenha certeza, que esteja pronta de verdade. Porque quando for pra valer, quero que seja com o coração tranquilo, sem dúvidas, sem tuas inseguranças te prendendo.
 
-Vou estar aqui, do teu lado, enquanto você trabalha isso com tua psicóloga, enquanto se cura, enquanto se descobre. Sem pressão, sem cobranças. Só com amor e paciência.
+Vou estar aqui, do teu lado, enquanto tu trabalha isso com tua psicóloga, enquanto se cura, enquanto se descobre. Sem pressão, sem cobranças. Só com amor e paciência.
 
-Quando você estiver pronta, eu vou estar aqui esperando. Com a certeza de que vale a pena.
+Quando tu estiver pronta, eu vou estar aqui esperando. Com a certeza de que vale a pena.
 
-Te amo, minha princesa. Do jeito que você é, no tempo que você precisa.
+Te amo, minha princesa. Do jeito que tu é, no tempo que tu precisa.
 
 Com todo meu amor e respeito,
 Caio ♥`
@@ -303,7 +303,7 @@ Caio ♥`
     {
         id: 18,
         letter: 'L',
-        cardIcon: 'heart.png',
+        cardIcon: 'her.png',
         message: `Eita tu denovo aqui princesa?
 
 Achei 17 um número muito pequeno, por mim eu escreveria pra ti todos os dias. Acho que faltariam palavras pra te demonstrar o quanto te acho a pessoa mais incrível que conheci e o quanto quero te fazer feliz.
