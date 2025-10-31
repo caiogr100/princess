@@ -461,30 +461,51 @@ class LetterApp {
             const unlockDate = this.dateManager.getCardUnlockDate(letter.id);
 
             const card = document.createElement('div');
-            card.className = `card ${!isUnlocked ? 'locked' : isOpened ? 'opened' : 'available'}`;
-            card.dataset.id = letter.id;
-
-            if (!isUnlocked) {
-                card.innerHTML = `
-                    <div class="lock-icon">🔒</div>
-                    <div class="card-number">Carta ${letter.id}</div>
-                    <div class="card-status">${this.formatDate(unlockDate)}</div>
-                `;
-            } else {
-                // Se tem imagem customizada, usa ela, senão usa emoji
+            
+            // Carta especial L (sempre desbloqueada)
+            if (letter.id === 18) {
+                card.className = `card special-card ${isOpened ? 'opened' : 'available'}`;
+                card.dataset.id = letter.id;
+                
                 let iconHTML;
                 if (letter.cardIcon) {
-                    iconHTML = `<img src="${letter.cardIcon}" class="card-custom-icon" alt="Carta ${letter.id}">`;
+                    iconHTML = `<img src="${letter.cardIcon}" class="card-custom-icon special-icon" alt="Carta L">`;
                 } else {
                     iconHTML = `<div class="card-icon">${isOpened ? '📖' : '💌'}</div>`;
                 }
                 
                 card.innerHTML = `
-                    <div class="card-number">Carta ${letter.id}</div>
+                    <div class="card-number special-label">Carta L</div>
                     ${iconHTML}
-                    ${isOpened ? '<div class="card-status">✓ Lida</div>' : '<div class="card-status">👆 Clique aqui</div>'}
+                    <div class="card-status special-status">${isOpened ? '✓ Lida' : '💝 Surpresa!'}</div>
                 `;
                 card.addEventListener('click', () => this.openCard(letter.id));
+            } else {
+                card.className = `card ${!isUnlocked ? 'locked' : isOpened ? 'opened' : 'available'}`;
+                card.dataset.id = letter.id;
+
+                if (!isUnlocked) {
+                    card.innerHTML = `
+                        <div class="lock-icon">🔒</div>
+                        <div class="card-number">Carta ${letter.id}</div>
+                        <div class="card-status">${this.formatDate(unlockDate)}</div>
+                    `;
+                } else {
+                    // Se tem imagem customizada, usa ela, senão usa emoji
+                    let iconHTML;
+                    if (letter.cardIcon) {
+                        iconHTML = `<img src="${letter.cardIcon}" class="card-custom-icon" alt="Carta ${letter.id}">`;
+                    } else {
+                        iconHTML = `<div class="card-icon">${isOpened ? '📖' : '💌'}</div>`;
+                    }
+                    
+                    card.innerHTML = `
+                        <div class="card-number">Carta ${letter.id}</div>
+                        ${iconHTML}
+                        ${isOpened ? '<div class="card-status">✓ Lida</div>' : '<div class="card-status">👆 Clique aqui</div>'}
+                    `;
+                    card.addEventListener('click', () => this.openCard(letter.id));
+                }
             }
 
             container.appendChild(card);
